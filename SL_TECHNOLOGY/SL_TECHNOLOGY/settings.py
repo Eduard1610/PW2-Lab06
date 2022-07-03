@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'Apps.inicio',
     'Apps.categories',
     'Apps.laptops',
+    'Apps,smartphones',
 ]
 
 MIDDLEWARE = [
