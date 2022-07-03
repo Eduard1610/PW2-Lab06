@@ -20,4 +20,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('Apps.inicio.urls')),
     path('categories/', include('Apps.categories.urls')),
+    path('laptops/', include('Apps.laptops.urls')),
 ]
