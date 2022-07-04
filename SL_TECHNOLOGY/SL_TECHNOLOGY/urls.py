@@ -22,4 +22,6 @@ urlpatterns = [
     path('categories/', include('Apps.categories.urls')),
     path('hotDeals/', include('Apps.hotDeals.urls')),
     path('cameras/', include('Apps.cameras.urls')),
+    path('laptops/', include('Apps.laptops.urls')),
+    path('smartphones/', include('Apps.smartphones.urls')),
 ]
